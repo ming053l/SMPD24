@@ -1,9 +1,8 @@
-## ncku_acvlab-smpchallenge2023
+## NCKU_ACVLAB-SMPChallenge2024
 
-- github: https://github.com/Xiuyu223/ncku_acvlab-smpchallenge2023/
 
 ### Brief Introduction 
-This repository is the code of our **team [ncku_acvlab]** used in SMP Challenge 2023(http://smp-challenge.com/).
+This repository is the code of our **team [NCKU_ACVLAB]** used in SMP Challenge 2024(http://smp-challenge.com/).
 
 We provide all the processed features and necessary codes in this repository.
 
@@ -48,8 +47,14 @@ e-mail: cchsu@gs.ncku.edu.tw
 - Author: Chia-Ming Lee
 e-mail: zuw408421476@gmail.com
 
-- Author: Xiu-Yu Hou
-e-mail: xiuyu.hou.tw@gmail.com
+- Author: Yu-Fan Lin
+e-mail: aas12as12as12tw@gmail.com
+
+- Author: Yi-Shiuan Chou
+e-mail: nelly910421@gmail.com
+
+- Author: Chih-Yu Jian
+e-mail: ru0354m3@gmail.com
 
 - Author: Chi-Han Tsai
 e-mail: fateplsf567@gmail.com
