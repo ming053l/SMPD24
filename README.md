@@ -2,12 +2,12 @@
 
 
 ### Brief Introduction 
+
 This repository is the code of our **team [NCKU_ACVLAB]** used in SMP Challenge 2024(http://smp-challenge.com/).
 
 We provide all the processed features and necessary codes in this repository.
 
 If you like to directly make the prediction of popularity scores, just clone this repository, jump to step 4 and execute R09 after downloading these necessary features by **this link: https://1drv.ms/u/s!AmaAVPK0zhHXpX7mxw31woqiTbwK?e=6aCqO8**
-
 
 ### Instruction
 If you aim to reproduce the whole experiment, please run the code with the following instruction:
@@ -25,7 +25,9 @@ For step 2 and 3, we also provide the processed features in 'train/'. If you wan
 3. We also crawled some new features by pathalias. The code is available in 'new_feature_crawler_by_pathalias.py'. Execute to crawl the external data. Also, the organized data is in 'train/new_features.pkl'.
 
 4. With the above steps, we have already finished processing data and features. Run R09 to start training and inference! The result file would be output to **'submission.json'**. As our model is ensembled by lightgbm and tabnet in ratio of 7:3, we also output the result file of these two model, respectively.
-  
+
+#### Experiment in tech-reports
+
 #### Reminder
 - For the part of features same as last year:
 We provided the two kinds of the extracted image features which are stored in *.csv format: image captioning and image 
