@@ -31,7 +31,7 @@ For step 2 and 3, we also provide the processed features in 'train/'. If you wan
 #### Experiment in tech-reports
 
 - We design the model based on **https://github.com/Daisy-zzz/CPDN** (top-1 performance at SMPD2023), and the identity-isolated split is employed.
-- We consider the data-splitting strategy used in 2022/2023 (ML-based approaches) may be uncompatible to CSPN-Net (time-series-aware multi-modal model), we will discuss it in our tech-report.
+- We consider the data-splitting strategy used in 2022/2023 (ML-based approaches) may be uncompatible to CSPN-Net (Timeseries-aware multi-modal model for social media popularity prediction), we will discuss it in our tech-report.
 
 #### Reminder
 - For the part of features same as last year:
