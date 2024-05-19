@@ -14,7 +14,7 @@ Besides, there is the data/features and checkpoints for experiment analysis in o
 ### Instruction
 If you aim to reproduce the whole experiment, please run the code with the following instruction:
 
-1. Based on our previous work, we take the processed features used last year as our baseline. Therefore, the code should be run from R01 to R08 at first, and all the processed features in 'data_2022/train' and 'data_2022/test' would be produced.
+1. Based on our previous work, we take the processed features used last year as our baseline. Therefore, the code should be run from R01 to R08 at first, and all the processed features in 'data_2023/train' and 'data_2023/test' would be produced.
 
 For step 2 and 3, we also provide the processed features in 'train/'. If you want to reproduce, please follow step 2 and 3. The processed features are also provide here for download:  
 
