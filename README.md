@@ -3,7 +3,7 @@
 
 ### Brief Introduction 
 
-This repository is the code of our **team [NCKU_ACVLAB]** used in SMP Challenge 2024(http://smp-challenge.com/).
+This repository is the code of our **team [NCKU_ACVLAB]** used in SMP Challenge 2024 (http://smp-challenge.com/).
 
 We provide all the processed features and necessary codes in this repository.
 
