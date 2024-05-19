@@ -7,7 +7,7 @@ This repository is the code of our **team [NCKU_ACVLAB]** used in SMP Challenge 
 
 We provide all the processed features and necessary codes in this repository.
 
-If you like to directly make the prediction of popularity scores, just clone this repository, jump to step 4 and execute R09 after downloading these necessary features by **this link: https://1drv.ms/u/s!AmaAVPK0zhHXpX7mxw31woqiTbwK?e=6aCqO8**
+If you like to directly make the prediction of popularity scores, just clone this repository, jump to step 4 and execute R09 after downloading these necessary features by **this link: https://drive.google.com/file/d/1SS2ABr02F-oXXmzXxxTcs-nqvuf5QbVI/view**
 
 Besides, there is the data/features and checkpoints for experiment analysis in our technical report: **this link: https://drive.google.com/drive/folders/1yaIceuQBOSv4MVrQQUi0RGnyZHGJYB1I?usp=sharing**
 
