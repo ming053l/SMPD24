@@ -9,6 +9,8 @@ We provide all the processed features and necessary codes in this repository.
 
 If you like to directly make the prediction of popularity scores, just clone this repository, jump to step 4 and execute R09 after downloading these necessary features by **this link: https://1drv.ms/u/s!AmaAVPK0zhHXpX7mxw31woqiTbwK?e=6aCqO8**
 
+Besides, there is the data/features and checkpoints for experiment analysis in our technical report: **this link: https://drive.google.com/drive/folders/1yaIceuQBOSv4MVrQQUi0RGnyZHGJYB1I?usp=sharing**
+
 ### Instruction
 If you aim to reproduce the whole experiment, please run the code with the following instruction:
 
@@ -28,12 +30,15 @@ For step 2 and 3, we also provide the processed features in 'train/'. If you wan
 
 #### Experiment in tech-reports
 
+- We design the model based on **https://github.com/Daisy-zzz/CPDN** (top-1 performance at SMPD2023), and the identity-isolated split is employed.
+- We consider the data-splitting strategy used in 2022/2023 (ML-based approaches) may be uncompatible to CSPN-Net (time-series-aware multi-modal model), we will discuss it in our tech-report.
+
 #### Reminder
 - For the part of features same as last year:
 We provided the two kinds of the extracted image features which are stored in *.csv format: image captioning and image 
 semantic feature. Image captioning information can be extracted by executing R_04 (under tensorflow 2.0). Image semantic feature is extracted by adopting the open source project - TF_FeatureExtraction (https://github.com/tomrunia/TF_FeatureExtraction) on each image.
 
-- In this year, we do image captioning with bilp. It is available in the open source project. If you want to reproduce this part, please follow this repository (https://github.com/salesforce/LAVIS) and build it from source. We used a pretrained blip captioning model trained with coco. We also used sentence_transformers(https://github.com/UKPLab/sentence-transformers) for getting text embedding. Make sure you have install these packages for feature extraction.
+- In this project, we do image captioning with bilp. It is available in the open source project. If you want to reproduce this part, please follow this repository (https://github.com/salesforce/LAVIS) and build it from source. We used a pretrained blip captioning model trained with coco. We also used sentence_transformers(https://github.com/UKPLab/sentence-transformers) for getting text embedding. Make sure you have install these packages for feature extraction.
 
 - Note that the image and feature files are too large, we didn't put it into our repository. If you want to reproduce the image captioning or image feature extraction part, please put the images to 'imgs/'('imgs/train' and 'imgs/test'). If you want to reproduce or take a look for all the feature processing steps, please download complete file by this link:  
 
